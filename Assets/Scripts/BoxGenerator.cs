@@ -6,6 +6,7 @@ public class BoxGenerator : MonoBehaviour
     public Transform pointB;
     public GameObject box;
 
+    // [SerializeField] private Vector3 boxCenter;
     void Update()
     {
         UpdateBox();
